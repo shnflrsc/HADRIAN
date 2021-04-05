@@ -1,9 +1,9 @@
 #!/bin/bash
 
+[ "$UID" -eq 0 ] || exec sudo bash "$0" "$@"
+
 read -p "Press ENTER to install Pantheon..."
 echo "Installing Pantheon..."
-
-[ "$UID" -eq 0 ] || exec sudo bash "$0" "$@"
 
 sudo pacman -Syu
 
@@ -12,7 +12,7 @@ echo -e "\nStage 1: Packages\n"
 sudo pacman -S --noconfirm xorg xorg-xinit lightdm lightdm-pantheon-greeter
 sudo systemctl enable lightdm
 
- sudo sed 's/greeter-session=example-gtk-gnome.*/greeter-session=io.elementary.greeter/' /etc/lightdm/lightdm.conf
+sudo sed 's/greeter-session=example-gtk-gnome.*/greeter-session=io.elementary.greeter/' /etc/lightdm/lightdm.conf
 
 ## Second set of packages: Desktop Components
 sudo pacman -S --noconfirm gala plank wingpanel pantheon-applications-menu pantheon-terminal pantheon-files switchboard sound-theme-elementary capnet-assist
