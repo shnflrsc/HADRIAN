@@ -27,7 +27,5 @@ git clone https://github.com/furesuka/HADRIAN.git
 cd into HADRIAN and run `install.sh`:
 ```
 cd HADRIAN
-```
-```
 sh install.sh
 ```
