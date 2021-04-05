@@ -63,6 +63,17 @@ echo "STAGE 2: MOVE PANTHEON.DESKTOP" >> ./log
 
 gsettings set org.gnome.desktop.background picture-uri file:///usr/share/wallpapers/elementary/'Sunset by the Pier.jpg'
 
+# Set Terminal Font
+
+gsettings set org.pantheon.terminal.settings font 'Droid Sans Mono Regular 10'
+
+# Hide some Applications that clutters the menu
+
+echo "Hidden=true" >> /usr/share/applications/bssh.desktop
+echo "Hidden=true" >> /usr/share/applications/bvnc.desktop
+echo "Hidden=true" >> /usr/share/applications/qv4l2.desktop
+echo "Hidden=true" >> /usr/share/applications/qvidcap.desktop
+
 echo "STAGE 2: BACKGROUND" >> ./log
 echo "STAGE 2: FINISHED" >> ./log
 

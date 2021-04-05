@@ -13,9 +13,9 @@ echo "   \/_/\/_/   \/_/\/_/   \/____/   \/_/ /_/   \/_/   \/_/\/_/   \/_/ \/_/ 
 
 # Packages that will be installed
 echo -e "\n\n Applications that will be Installed:\n"
-echo "  xorg, xorg-xinit, lightdm, lightdm-pantheon-greeter"
+echo "  xorg, xorg-xinit, lightdm, lightdm-gtk-greeter"
 echo "  gala, plank, wingpanel and indicators, switchboard and plugs"
-echo -e "  optional default applications of elementary OS\n\n"
+echo -e "  [optional] default applications of elementary OS\n\n"
 
 # Confirm if user really wants to install Pantheon
 read -p " Install Pantheon? [y/n]: " -n 1 -r
@@ -27,5 +27,6 @@ fi
 
 sh STAGE1.sh
 sh STAGE2.sh
+sh STAGE3.sh
 
 echo -e "\n Enjoy Pantheon!"
