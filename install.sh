@@ -30,3 +30,4 @@ sh STAGE2.sh
 sh STAGE3.sh
 
 echo -e "\n Enjoy Pantheon!"
+echo -e " Note: Do NOT delete ~/.autostart! It is responsible for starting important components of Pantheon!"
