@@ -26,16 +26,17 @@ echo "STAGE 1: SYNCED" >> ./log
 
 # For some reason, lightdm-pantheon-greeter wouldn't detect the custom desktop entry placed in /usr/share/xsessions so we'll go with the default greeter for now
 # First SET: Xorg and Display Manager
-sudo pacman -S --noconfirm xorg lightdm lightdm-gtk-greeter
-sudo systemctl enable lightdm
 
-echo "STAGE 1: FIRST SET" >> ./log
+#sudo pacman -S --noconfirm xorg lightdm lightdm-gtk-greeter
+#sudo systemctl enable lightdm
+
+#echo "STAGE 1: FIRST SET" >> ./log
 
 # Set which greeter LightDM will use
-sudo sed -i '102d' /etc/lightdm/lightdm.conf
-sudo sed -i '102i\greeter-session=lightdm-gtk-greeter' /etc/lightdm/lightdm.conf
+#sudo sed -i '102d' /etc/lightdm/lightdm.conf
+#sudo sed -i '102i\greeter-session=lightdm-gtk-greeter' /etc/lightdm/lightdm.conf
 
-echo "STAGE 1: GREETER" >> ./log
+#echo "STAGE 1: GREETER" >> ./log
 
 # Second SET: Various Desktop Components
 sudo pacman -S --noconfirm gala plank wingpanel pantheon-applications-menu pantheon-terminal pantheon-files switchboard sound-theme-elementary capnet-assist
