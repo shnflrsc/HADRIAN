@@ -9,13 +9,13 @@ First make sure you have synced the latest database and updated to latest packag
 ```
 sudo pacman -Syu
 ```
-Now we install the packages. The ones we're gonna install are Pantheon's window manager, top bar, dock, settings manager, etc.
+Now we install the packages. These are Pantheon's window manager, top bar, dock, settings manager, etc.
 
 Let's install all of those:
 ```
 sudo pacman -S gala plank wingpanel pantheon-applications-menu pantheon-terminal pantheon-files switchboard sound-theme-elementary capnet-assist wingpanel-indicator-datetime wingpanel-indicator-session wingpanel-indicator-power wingpanel-indicator-sound wingpanel-indicator-notifications wingpanel-indicator-network wingpanel-indicator-bluetooth wingpanel-indicator-nightlight wingpanel-indicator-keyboard switchboard-plug-a11y switchboard-plug-about switchboard-plug-applications switchboard-plug-bluetooth switchboard-plug-datetime switchboard-plug-desktop switchboard-plug-display switchboard-plug-keyboard switchboard-plug-mouse-touchpad switchboard-plug-network switchboard-plug-notifications switchboard-plug-online-accounts switchboard-plug-parental-controls switchboard-plug-power switchboard-plug-printers switchboard-plug-security-privacy switchboard-plug-sharing switchboard-plug-sound switchboard-plug-user-accounts
 ```
-If you also want the available Pantheon default applications, install these:
+If you also want the available Pantheon default applications:
 ```
 sudo pacman -S epiphany pantheon-calculator pantheon-calendar pantheon-code pantheon-music pantheon-photos pantheon-screenshot pantheon-shortcut-overlay pantheon-videos
 ```
