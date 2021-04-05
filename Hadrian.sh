@@ -10,7 +10,7 @@ echo -e "\nStage 1: Packages\n"
 sudo pacman -S --noconfirm xorg xorg-xinit lightdm lightdm-pantheon-greeter
 sudo systemctl enable lightdm
 
-sudo sed 's/greeter-session=example-gtk-gnome.*/greeter-session=io.elementary.greeter/' /etc/lightdm/lightdm.conf
+sudo sed -i '102i\greeter-session=io.elementary.greeter' /etc/lightdm/lightdm.conf
 
 ## Second set of packages: Desktop Components
 sudo pacman -S --noconfirm gala plank wingpanel pantheon-applications-menu pantheon-terminal pantheon-files switchboard sound-theme-elementary capnet-assist
@@ -40,6 +40,7 @@ echo -e "export TERM=io.elementary.terminal\n\nwingpanel &\nplank &\n\nexec gala
 sudo chmod +x ~/.autostart
 
 echo -e "[Desktop Entry]\nEncoding=UTF-8\nType=Application\nName=Pantheon\nComment=Arch Linux variation of Pantheon\nExec=~/.autostart" >> ~/pantheon.desktop
+sudo mkdir -p /usr/share/xsessions/
 sudo mv ~/pantheon.desktop /usr/share/xsessions/pantheon.desktop
 
 echo -e "Enabling Wallpaper..."
