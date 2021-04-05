@@ -15,7 +15,7 @@ fi
 
 # Install Default Packages
 
-sudo pacman -S --noconfirm pantheon-calculator pantheon-calendar pantheon-code pantheon-music pantheon-photos pantheon-screenshot pantheon-shortcut-overlay pantheon-videos
+sudo pacman -S --noconfirm epiphany pantheon-calculator pantheon-calendar pantheon-code pantheon-music pantheon-photos pantheon-screenshot pantheon-shortcut-overlay pantheon-videos
 
 echo "STAGE 3: PACKAGES" >> ./log 
 echo "STAGE 3: FINISHED" >> ./log 
