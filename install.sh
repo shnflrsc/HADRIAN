@@ -1,5 +1,7 @@
 #!/bin/bash
 
+clear
+
 # Cool Logo
 
 echo 

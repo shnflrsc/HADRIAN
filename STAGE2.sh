@@ -64,6 +64,7 @@ echo "STAGE 2: MOVE PANTHEON.DESKTOP" >> ./log
 gsettings set org.gnome.desktop.background picture-uri file:///usr/share/wallpapers/elementary/'Sunset by the Pier.jpg'
 
 echo "STAGE 2: BACKGROUND" >> ./log
+echo "STAGE 2: FINISHED" >> ./log
 
 read -t 2 -p "STAGE 2 (CONFIGURATION) COMPLETED!"
 
