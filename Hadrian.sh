@@ -1,7 +1,7 @@
 #!/bin/bash
 
-read -p "Press ENTER to install Pantheon..."
-echo "Installing Pantheon..."
+read -p "Press ENTER to install Pantheon"
+echo -e "\nInstalling Pantheon...\n"
 
 sudo pacman -Syu
 
@@ -26,13 +26,14 @@ echo -e "\nStage 2: Default Settings\n"
 sudo pacman -S --noconfirm git base-devel
 
 mkdir ~/Git
-(cd ~/Git;git clone https://aur.archlinux.org/pantheon-default-settings.git)
+cd ~/Git
 
-(cd ~/Git;makepkg -si)
+git clone https://aur.archlinux.org/pantheon-default-settings.git
+cd pantheon-default-settings/
+
+makepkg -si
 
 echo -e "\nStage 3: Configuration\n"
-
-## Make a custom desktop session at (/usr/share/xsessions)
 
 echo -e "export TERM=io.elementary.terminal\n\nwingpanel &\nplank &\n\nexec gala" >> ~/.autostart
 
