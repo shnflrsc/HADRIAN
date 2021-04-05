@@ -6,7 +6,7 @@ Use this script at your **OWN RISK!** I made this script with *very little* scri
 ## Notes
 For some reason, Pantheon's LightDM Greeter wouldn't detect the custom desktop entry placed in `/usr/share/xsessions`. We'll use the default GTK Greeter for now.
 
-Pantheon's E-Mail Client is only available on the AUR, and one of the comments say it takes a ridiculous amount of time to compile. I think it is better to leave that one out.
+Pantheon's E-Mail Client is only available on the AUR, and one of the comments say it takes a ridiculous amount of time to compile. I think it's better to leave that one out.
 
 I don't think elementary OS' AppCenter is available on any Arch Linux repositories. This sucks!
 
