@@ -72,8 +72,6 @@ gsettings set org.gnome.desktop.interface monospace-font-name 'Droid Sans Mono R
 sudo sed -i -e '$aHidden=true' /usr/share/applications/bvnc.desktop
 sudo sed -i -e '$aHidden=true' /usr/share/applications/bssh.desktop
 sudo sed -i -e '$aHidden=true' /usr/share/applications/avahi-discover.desktop
-sudo sed -i -e '$aHidden=true' /usr/share/applications/gda-browser-5.0.desktop
-sudo sed -i -e '$aHidden=true' /usr/share/applications/gda-control-center-5.0.desktop
 sudo sed -i -e '$aHidden=true' /usr/share/applications/plank.desktop
 
 echo "STAGE 2: BACKGROUND" >> ./log
