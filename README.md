@@ -1,13 +1,11 @@
 # Hadrian
-**Hadrian** is an easy to use bash script that installs Pantheon on Arch Linux.
+**HADRIAN** is an easy to use bash script that installs Pantheon on Arch Linux.
 
-Use this script at your **OWN RISK!** I made this script with *very little* scripting experience and with the help of a search engine and other helpful sources. I cannot guarantee it will not mess up your Arch Linux install, ***blow up your computer*** or say with confidence that Pantheon on Arch is stable enough for your needs.
+Use this script at your **OWN RISK!** I made this script with *very little* scripting experience and with the help of a search engine and other helpful sources. I cannot confirm if it is stable enough for daily use or guarantee it will not start a ***thermonuclear war and eradicate all living beings***.
 
-## Information
-**Pantheon** is a desktop environment developed by the same team that works on [elementary OS](https://elementary.io). It is elementary OS' dedicated desktop environment.
-
-[**Arch Linux**](https://archlinux.org) is a Linux distribution that adheres to the KISS principle and is focused on simplicity, modernity, pragmatism, user centrality, and versatility.
 ## Installation
+If you prefer to install Pantheon manually, proceed to Manual Install.
+
 Choose a suitable working directory. I recommend an empty folder in your home directory with your name of choice.
 First clone the Hadrian repository:
 
