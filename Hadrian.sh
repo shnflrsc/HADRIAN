@@ -3,13 +3,14 @@
 read -p "Press ENTER to install Pantheon"
 echo -e "\nInstalling Pantheon...\n"
 
-sudo pacman -Syu
+sudo pacman -Syu --noconfirm
 
 echo -e "\nStage 1: Packages\n"
 ## First set of packages: Xorg and Preferred Display Manager
 sudo pacman -S --noconfirm xorg xorg-xinit lightdm lightdm-pantheon-greeter
 sudo systemctl enable lightdm
 
+sudo sed -i '102d' /etc/lightdm/lightdm.conf
 sudo sed -i '102i\greeter-session=io.elementary.greeter' /etc/lightdm/lightdm.conf
 
 ## Second set of packages: Desktop Components
