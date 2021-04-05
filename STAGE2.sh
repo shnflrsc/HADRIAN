@@ -65,18 +65,20 @@ gsettings set org.gnome.desktop.background picture-uri file:///usr/share/wallpap
 
 # Set Terminal Font
 
-gsettings set org.pantheon.terminal.settings font 'Droid Sans Mono Regular 10'
+gsettings set org.gnome.desktop.interface monospace-font-name 'Droid Sans Mono Regular 10'
 
 # Hide some Applications that clutters the menu
 
-echo "Hidden=true" >> /usr/share/applications/bssh.desktop
-echo "Hidden=true" >> /usr/share/applications/bvnc.desktop
-echo "Hidden=true" >> /usr/share/applications/qv4l2.desktop
-echo "Hidden=true" >> /usr/share/applications/qvidcap.desktop
+sudo sed -i -e '$aHidden=true' /usr/share/applications/bvnc.desktop
+sudo sed -i -e '$aHidden=true' /usr/share/applications/bssh.desktop
+sudo sed -i -e '$aHidden=true' /usr/share/applications/avahi-discover.desktop
+sudo sed -i -e '$aHidden=true' /usr/share/applications/gda-browser-5.0.desktop
+sudo sed -i -e '$aHidden=true' /usr/share/applications/gda-control-center-5.0.desktop
+sudo sed -i -e '$aHidden=true' /usr/share/applications/plank.desktop
 
 echo "STAGE 2: BACKGROUND" >> ./log
 echo "STAGE 2: FINISHED" >> ./log
 
-read -t 2 -p "STAGE 2 (CONFIGURATION) COMPLETED!"
+read -t 2 -p " STAGE 2 (CONFIGURATION) COMPLETED!"
 
 exit 0

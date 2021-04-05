@@ -26,7 +26,7 @@ echo "STAGE 1: SYNCED" >> ./log
 
 # For some reason, lightdm-pantheon-greeter wouldn't detect the custom desktop entry placed in /usr/share/xsessions so we'll go with the default greeter for now
 # First SET: Xorg and Display Manager
-sudo pacman -S --noconfirm xorg xorg-xinit lightdm lightdm-gtk-greeter
+sudo pacman -S --noconfirm xorg lightdm lightdm-gtk-greeter
 sudo systemctl enable lightdm
 
 echo "STAGE 1: FIRST SET" >> ./log
