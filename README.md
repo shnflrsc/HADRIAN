@@ -12,7 +12,7 @@ Now let's clone the Hadrian repository:
 ```
 git clone https://github.com/furesuka/Hadrian.git
 ```
-cd into the *Hadrian folder* and run `install.sh`:
+cd into Hadrian and run `install.sh`:
 ```
 cd Hadrian/
 ```
