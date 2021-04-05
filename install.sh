@@ -13,7 +13,6 @@ echo "   \/_/\/_/   \/_/\/_/   \/____/   \/_/ /_/   \/_/   \/_/\/_/   \/_/ \/_/ 
 
 # Packages that will be installed
 echo -e "\n\n Applications that will be Installed:\n"
-echo "  xorg, lightdm, lightdm-gtk-greeter"
 echo "  gala, plank, wingpanel and indicators, switchboard and plugs"
 echo -e "  [optional] default applications for elementary OS\n\n"
 
