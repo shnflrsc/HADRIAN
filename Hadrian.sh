@@ -5,6 +5,8 @@ echo "Installing Pantheon..."
 
 [ "$UID" -eq 0 ] || exec sudo bash "$0" "$@"
 
+sudo pacman -Syu
+
 echo -e "\nStage 1: Packages\n"
 ## First set of packages: Xorg and Preferred Display Manager
 sudo pacman -S --noconfirm xorg xorg-xinit lightdm lightdm-pantheon-greeter
