@@ -9,11 +9,13 @@ If you prefer to install Pantheon manually, proceed to Manual Install.
 First choose a suitable working directory. I recommend an empty folder in your home directory with your name of choice.
 Now let's clone the Hadrian repository:
 
-`git clone https://github.com/furesuka/Hadrian.git`
-
-cd into the *Hadrian folder* and run **install.sh**:
-
-`cd Hadrian/`
-
-
-`sh install.sh`
+```
+git clone https://github.com/furesuka/Hadrian.git
+```
+cd into the *Hadrian folder* and run `install.sh`:
+```
+cd Hadrian/
+```
+```
+sh install.sh
+```
