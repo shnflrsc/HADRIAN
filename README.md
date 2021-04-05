@@ -6,7 +6,11 @@ Use this script at your **OWN RISK!** I made this script with *very little* scri
 ## Issues
 For some reason, Pantheon's LightDM Greeter wouldn't detect the custom desktop entry placed in `/usr/share/xsessions`. We'll use the default GTK Greeter for now.
 
-Make sure you have installed X.org and a Display Manager before opening Pantheon!
+Pantheon's E-Mail Client is only available on the AUR, and one of the comments say it takes a ridiculous amount of time to compile. I think it is better to leave that one out.
+
+I don't think elementary OS' AppCenter is available on any Arch Linux repositories.
+
+This script doesn't install X.org and a Display Manager. Make sure you have installed them before installing Pantheon!
 ## Installation
 If you prefer to install Pantheon manually, proceed to [Manual Installation](https://github.com/furesuka/HADRIAN/blob/main/MANUAL.md).
 
