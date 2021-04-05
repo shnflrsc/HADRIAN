@@ -16,7 +16,7 @@ This script doesn't provide X.org and a Display Manager. Make sure you have inst
 ## Installation
 If you prefer to install Pantheon manually, proceed to [Manual Installation](https://github.com/furesuka/HADRIAN/blob/main/MANUAL.md).
 
-First, I recommend inspecting the whole script right here on GitHub. That way, you can understand how it works, add your own stuff or know what stuff to remove that doesn't fit to your needs. (improvements also appreciated!)
+First, I recommend inspecting the whole script right here on GitHub. That way, you can understand how it works or know what stuff to remove that doesn't fit your needs. (improvements also appreciated!)
 
 Choose a suitable working directory. I recommend an empty folder in your home directory with your name of choice.
 Now let's clone the Hadrian repository:
