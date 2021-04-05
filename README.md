@@ -13,7 +13,7 @@ First choose a suitable working directory. I recommend an empty folder in your h
 Now let's clone the Hadrian repository:
 
 ```
-git clone https://github.com/furesuka/Hadrian.git
+git clone https://github.com/furesuka/HADRIAN.git
 ```
 cd into HADRIAN and run `install.sh`:
 ```
