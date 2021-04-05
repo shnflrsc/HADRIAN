@@ -4,7 +4,7 @@
 Use this script at your **OWN RISK!** I made this script with *very little* scripting experience and with the help of a search engine and other helpful sources. I cannot confirm if it is stable enough for daily use or guarantee it will not start a ***thermonuclear war and eradicate all living beings***.
 
 ## Installation
-If you prefer to install Pantheon manually, proceed to Manual Install.
+If you prefer to install Pantheon manually, proceed to [Manual Installation](https://github.com/furesuka/HADRIAN/blob/main/MANUAL.md).
 
 First choose a suitable working directory. I recommend an empty folder in your home directory with your name of choice.
 Now let's clone the Hadrian repository:
