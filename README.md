@@ -10,7 +10,7 @@ Pantheon's E-Mail Client is only available on the AUR, and one of the comments s
 
 I don't think elementary OS' AppCenter is available on any Arch Linux repositories.
 
-This script doesn't install X.org and a Display Manager. Make sure you have installed them before installing Pantheon!
+This script doesn't provide X.org and a Display Manager. Make sure you have installed them before running HADRIAN!
 ## Installation
 If you prefer to install Pantheon manually, proceed to [Manual Installation](https://github.com/furesuka/HADRIAN/blob/main/MANUAL.md).
 
