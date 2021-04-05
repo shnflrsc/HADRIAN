@@ -6,8 +6,8 @@ Use this script at your **OWN RISK!** I made this script with *very little* scri
 ## Installation
 If you prefer to install Pantheon manually, proceed to Manual Install.
 
-Choose a suitable working directory. I recommend an empty folder in your home directory with your name of choice.
-First clone the Hadrian repository:
+First choose a suitable working directory. I recommend an empty folder in your home directory with your name of choice.
+Now let's clone the Hadrian repository:
 
 `git clone https://github.com/furesuka/Hadrian.git`
 
