@@ -1,7 +1,7 @@
 # HADRIAN
 **HADRIAN** is an easy to use bash script that installs Pantheon on Arch Linux.
 
-Use this script at your **OWN RISK!** I made this script with *little* scripting experience and with the help of a search engine and other helpful sources. I cannot confirm if Pantheon is stable enough for daily use or guarantee it will not start a ***thermonuclear war and eradicate all living beings***.
+Use this script at your **OWN RISK!** I made this script with *little* scripting experience and with the help of a search engine and other helpful sources, IN ONE DAY. I cannot confirm if Pantheon is stable enough for daily use or guarantee it will not start a ***thermonuclear war and eradicate all living beings***.
 
 ## Notes
 As you can expect, Pantheon will not be complete. There will be some packages either missing or very outdated.
