@@ -6,6 +6,7 @@ Use this script at your **OWN RISK!** I made this script with *very little* scri
 ## Issues
 For some reason, Pantheon's LightDM Greeter wouldn't detect the custom desktop entry placed in `/usr/share/xsessions`. We'll use the default GTK Greeter for now.
 
+Make sure you have installed X.org and a Display Manager before opening Pantheon!
 ## Installation
 If you prefer to install Pantheon manually, proceed to [Manual Installation](https://github.com/furesuka/HADRIAN/blob/main/MANUAL.md).
 
