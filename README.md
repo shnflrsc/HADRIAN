@@ -8,3 +8,15 @@ Use this script at your **OWN RISK!** I made this script with *very little* bash
 
 [**Arch Linux**](https://archlinux.org) is a Linux distribution that adheres to the KISS principle and is focused on simplicity, modernity, pragmatism, user centrality, and versatility.
 ## Installation
+Choose a suitable working directory. I recommend an empty folder in your home directory with your name of choice.
+
+Clone this repository:
+
+`git clone https://github.com/furesuka/Hadrian.git`
+
+cd into the *Hadrian folder* and run install.sh:
+
+`cd Hadrian/`
+
+
+`sh install.sh`
