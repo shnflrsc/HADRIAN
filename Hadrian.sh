@@ -1,7 +1,5 @@
 #!/bin/bash
 
-[ "$UID" -eq 0 ] || exec sudo bash "$0" "$@"
-
 read -p "Press ENTER to install Pantheon..."
 echo "Installing Pantheon..."
 
@@ -40,11 +38,11 @@ echo -e "export TERM=io.elementary.terminal\n\nwingpanel &\nplank &\n\nexec gala
 
 sudo chmod +x ~/.autostart
 
-echo -e "[Desktop Entry]\nEncoding=UTF-8\nType=Application\nName=Pantheon\nComment=Arch Linux variation of Pantheon\nExec=~/.autostart" >> pantheon.desktop
-sudo mv pantheon.desktop /usr/share/xsessions/pantheon.desktop
+echo -e "[Desktop Entry]\nEncoding=UTF-8\nType=Application\nName=Pantheon\nComment=Arch Linux variation of Pantheon\nExec=~/.autostart" >> ~/pantheon.desktop
+sudo mv ~/pantheon.desktop /usr/share/xsessions/pantheon.desktop
 
 echo -e "Enabling Wallpaper..."
 
-gsettings set org.gnome.desktop.background file:///usr/share/wallpapers/elementary/'Sunset by the Pier.jpg'
+gsettings set org.gnome.desktop.background picture-uri file:///usr/share/wallpapers/elementary/'Sunset by the Pier.jpg'
 
 echo -e "\nDone installing Pantheon. Please Reboot and Enjoy Pantheon!\n"
