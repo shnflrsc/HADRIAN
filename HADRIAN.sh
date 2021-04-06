@@ -14,7 +14,10 @@ do
     echo "   \/_/\/_/   \/_/\/_/   \/____/   \/_/ /_/   \/_/   \/_/\/_/   \/_/ \/_/  "
 
     # Menu
-    echo -e "\n\n [1] Install Pantheon"
+
+    echo -e "\n\n Note: Every option with * is mandatory to make Pantheon work!"
+
+    echo -e "\n [1] Install Pantheon"
     echo " [2] Uninstall Pantheon"
     echo " [3] Configure"
     echo -e " [4] Exit\n"

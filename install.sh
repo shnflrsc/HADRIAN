@@ -7,7 +7,7 @@ do
 
     echo -e "\n [1] Pacman Sync & Update"
     echo " [2] Install Xorg & LightDM"
-    echo " [3] Pantheon: Install Essential"
+    echo " [3] Pantheon: Install Essential*"
     echo " [4] Pantheon: Install Wingpanel Indicators"
     echo " [5] Pantheon: Install Switchboard Plugs"
     echo " [6] Pantheon: Install Default Applications"

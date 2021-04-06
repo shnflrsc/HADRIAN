@@ -6,8 +6,8 @@ do
     clear
 
     echo -e "\n [1] Install Default Settings"
-    echo " [2] Generate XSession"
-    echo " [3] Generate Desktop Entry"
+    echo " [2] Generate XSession*"
+    echo " [3] Generate Desktop Entry*"
     echo " [4] Additional Fixes"
     echo -e " [5] Back\n"
 
