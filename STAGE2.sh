@@ -36,19 +36,19 @@ echo "STAGE 2: CLONE" >> ./log
 
 echo "STAGE 2: MAKE" >> ./log
 
-# Make autostart script at home directory
+# Make xsession at home directory
 
-echo -e "export TERM=io.elementary.terminal\n\nwingpanel &\nplank &\n\nexec gala" >> ~/.autostart
+echo -e "export TERM=io.elementary.terminal\n\nwingpanel &\nplank &\n\nexec gala" >> ~/.xsession
 
 echo "STAGE 2: GENERATE AUTOSTART" >> ./log
 
-# Make autostart executable
-sudo chmod +x ~/.autostart
+# Make .xsession executable
+sudo chmod +x ~/.xsession
 
 echo "STAGE 2: EXECUTABLE PERMISSION" >> ./log
 
 # Make a custom Pantheon desktop session
-echo -e "[Desktop Entry]\nEncoding=UTF-8\nType=Application\nName=Pantheon\nComment=Arch Linux variation of Pantheon\nExec=~/.autostart" >> pantheon.desktop
+echo -e "[Desktop Entry]\nEncoding=UTF-8\nType=Application\nName=Pantheon\nComment=Arch Linux variation of Pantheon\nExec=~/.xsession" >> pantheon.desktop
 
 echo "STAGE 2: PANTHEON.DESKTOP" >> ./log
 
