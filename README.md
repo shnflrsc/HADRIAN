@@ -5,7 +5,7 @@
 *I cannot guarantee if Pantheon will be stable enough for your daily use, if the script will not crash and boom your computer, or if it will not crash the global economy and start a thermonuclear war. Use this script at your **OWN RISK!***
 
 # INSTALLATION
-If you prefer to install Pantheon manually, proceed to [MANUAL.md](https://github.com/furesuka/HADRIAN/blob/main/MANUAL.md)
+If you prefer to install Pantheon manually, proceed to [MANUAL.md](https://github.com/furesuka/HADRIAN/blob/main/MANUAL.md).
 
 Choose a suitable working directory. I recommend an empty folder in your home directory with your name of choice.
 
@@ -22,6 +22,6 @@ sh HADRIAN.sh
 
 Additional Notes:
 
-- Pantheon's LightDM greeter doesn't work as I intended to, so we're sticking with the default greeter for now.
+- Pantheon's LightDM greeter doesn't work as I intended it to, so we're sticking with the default greeter for now.
 - I did not include **Pantheon Mail** because it is very outdated in the AUR, and takes too long to compile.
-- elementary OS' **AppCenter** is completely unavailable in Arch.
+- elementary OS' **AppCenter** is completely unavailable on Arch.
