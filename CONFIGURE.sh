@@ -8,7 +8,7 @@ do
     echo -e "\n [1] Install Default Settings"
     echo " [2] Generate XSession"
     echo " [3] Generate Desktop Entry"
-    echo " [4] Additional Configuration"
+    echo " [4] Additional Fixes"
     echo -e " [5] Back\n"
 
     read -p "Configure: " -r
@@ -52,7 +52,7 @@ do
             sudo sed -i -e '$aHidden=true' /usr/share/applications/plank.desktop
 
             echo 
-            read -p " Additional Configuration - Done!"
+            read -p " Additional Fixes - Done!"
             continue
             ;;
         5)
