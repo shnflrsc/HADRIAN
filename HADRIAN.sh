@@ -2,8 +2,6 @@
 
 set -e
 
-# Generate HADRIAN Logo
-
 while true
 do
     clear
@@ -24,15 +22,15 @@ do
     read -p "Do: " -r
     case $REPLY in
         1)
-            sh INSTALL.sh
+            sh "install.sh"
             continue
             ;;
         2)
-            sh UNINSTALL.sh
+            sh "uninstall.sh"
             continue
             ;;
         3)
-            sh CONFIGURE.sh
+            sh "configure.sh"
             continue
             ;;
         4)
