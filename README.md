@@ -20,6 +20,6 @@ sh HADRIAN.sh
 
 Additional Notes:
 
-- Pantheon's LightDM greeter doesn't work as I intended it to, so we're sticking with the default greeter for now.
+- `lightdm-pantheon-greeter` doesn't work as I intended it to, so we're sticking with the default greeter for now.
 - I did not include **Pantheon Mail** because it is very outdated in the AUR, and takes too long to compile.
 - elementary OS' **AppCenter** is completely unavailable on Arch.
