@@ -1,32 +1,27 @@
-# HADRIAN
-**HADRIAN** is an easy to use bash script that installs Pantheon on Arch Linux.
+![Screenshot from 2021-04-06 21-55-50](https://user-images.githubusercontent.com/71271055/113722343-e9ac5680-9722-11eb-9511-66ea173dad75.png)
 
-Use this script at your **OWN RISK!** I cannot confirm if Pantheon is stable enough for daily use or guarantee it will not start a ***thermonuclear war and eradicate all living beings***.
+**HADRIAN** is a Pantheon Desktop Environment installer script for Arch Linux.
 
-## Notes
-This script doesn't provide X.org and a Display Manager. Make sure you have installed them before running HADRIAN!
+*I cannot guarantee if Pantheon will be stable enough for your daily use, if the script will not crash and boom your computer, or if it will not crash the global economy and start a thermonuclear war. Use this script at your **OWN RISK!***
 
-As you can expect, Pantheon will not be complete. There will be some packages either missing, outdated or malfunctioning:
-
-* Pantheon's E-Mail Client is only available on the AUR, last updated on 2019 and someone says it takes a ridiculous amount of time to compile. I think it's better to leave that one out.
-
-* elementary OS' AppCenter is not available on any Arch Linux repository.
-
-* For some reason, Pantheon's LightDM Greeter wouldn't detect the custom desktop entry placed in `/usr/share/xsessions`. We'll use the default GTK Greeter for now.
-
-## Installation
-If you prefer to install Pantheon manually, proceed to [Manual Installation](https://github.com/furesuka/HADRIAN/blob/main/MANUAL.md).
-
-First, I recommend inspecting the whole script right here on GitHub. That way, you can understand how it works or know what stuff to remove that doesn't fit your needs.
+# INSTALLATION
+If you prefer to install Pantheon manually, proceed to [MANUAL.md](https://github.com/furesuka/HADRIAN/blob/main/MANUAL.md).
 
 Choose a suitable working directory. I recommend an empty folder in your home directory with your name of choice.
-Now let's clone the Hadrian repository:
 
+Clone the repository:
 ```
 git clone https://github.com/furesuka/HADRIAN.git
 ```
-cd into HADRIAN and run `install.sh`:
+
+cd into HADRIAN and run `HADRIAN.sh`:
 ```
-cd HADRIAN
-sh install.sh
+cd HADRIAN/
+sh HADRIAN.sh
 ```
+
+Additional Notes:
+
+- Pantheon's LightDM greeter doesn't work as I intended it to, so we're sticking with the default greeter for now.
+- I did not include **Pantheon Mail** because it is very outdated in the AUR, and takes too long to compile.
+- elementary OS' **AppCenter** is completely unavailable on Arch.
