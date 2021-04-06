@@ -10,7 +10,7 @@ As you can expect, Pantheon will not be complete. There will be some packages ei
 
 * Pantheon's E-Mail Client is only available on the AUR, last updated on 2019 and someone says it takes a ridiculous amount of time to compile. I think it's better to leave that one out.
 
-* I don't think elementary OS' AppCenter is available on any Arch Linux repositories. Sucks.
+* elementary OS' AppCenter is not available on any Arch Linux repository.
 
 * For some reason, Pantheon's LightDM Greeter wouldn't detect the custom desktop entry placed in `/usr/share/xsessions`. We'll use the default GTK Greeter for now.
 
