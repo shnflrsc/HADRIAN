@@ -36,7 +36,7 @@ do
             continue
             ;;
         3)
-            sudo pacman -S --noconfirm gala plank wingpanel pantheon-applications-menu pantheon-terminal pantheon-files switchboard sound-theme-elementary
+            sudo pacman -S --noconfirm gala plank wingpanel pantheon-applications-menu pantheon-terminal switchboard sound-theme-elementary
 
             echo 
             read -p " Pantheon: Install Essential - Done!"
@@ -57,7 +57,7 @@ do
             continue
             ;;
         6)
-            sudo pacman -S --noconfirm epiphany pantheon-calculator pantheon-calendar pantheon-code pantheon-music pantheon-photos pantheon-screenshot pantheon-shortcut-overlay pantheon-videos
+            sudo pacman -S --noconfirm epiphany pantheon-calculator pantheon-files pantheon-calendar pantheon-code pantheon-music pantheon-photos pantheon-screenshot pantheon-shortcut-overlay pantheon-videos
 
             echo
             read -p " Pantheon: Install Default Applications - Done!"
