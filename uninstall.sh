@@ -22,7 +22,7 @@ do
             continue
             ;;
         2)
-            sudo pacman -Rs --noconfirm gala plank wingpanel pantheon-applications-menu pantheon-terminal pantheon-files switchboard sound-theme-elementary
+            sudo pacman -Rs --noconfirm gala plank wingpanel pantheon-applications-menu pantheon-terminal switchboard sound-theme-elementary
 
             echo
             read -p " Pantheon: Uninstall Essential - Done!"
@@ -43,7 +43,7 @@ do
             continue
             ;;
         5)
-            sudo pacman -Rs --noconfirm epiphany pantheon-calculator pantheon-calendar pantheon-code pantheon-music pantheon-photos pantheon-screenshot pantheon-shortcut-overlay pantheon-videos
+            sudo pacman -Rs --noconfirm epiphany pantheon-calculator pantheon-files pantheon-calendar pantheon-code pantheon-music pantheon-photos pantheon-screenshot pantheon-shortcut-overlay pantheon-videos
 
             echo
             read -p " Pantheon: Uninstall Default Applications - Done!"
