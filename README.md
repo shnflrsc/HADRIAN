@@ -2,6 +2,8 @@
 
 **HADRIAN** is a Pantheon Desktop Environment installer script for Arch Linux.
 
+*This can cause problems if you have other Desktop Environments installed.*
+
 *I cannot guarantee if Pantheon will be stable enough for your daily use, if the script will not crash and boom your computer, or if it will not crash the global economy and start a thermonuclear war. Use this script at your **OWN RISK!***
 
 # INSTALLATION
