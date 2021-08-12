@@ -14,8 +14,9 @@ while true; do
         2 "Fix Terminal Font" \
         3 "Set Default Background" \
         4 "Hide Originally Hidden Applications" \
+        5 "Set LightDM Greeter" \
         " " "" \
-        5 "Continue" \
+        6 "Continue" \
     )
 
     case $choice in
@@ -32,6 +33,8 @@ while true; do
             sh Stages/configuration/4.sh
             ;;
         5)
+            sh Stages/configuration/5.sh
+        6)
             break
             ;;
         " ")

@@ -15,7 +15,9 @@ X-GNOME-AutoRestart=true
 X-GNOME-Autostart-enabled=true
 X-GNOME-Autostart-Phase=Panel
 OnlyShowIn=Pantheon;
-" > /etc/xdg/autostart/plank.desktop
+" > plank.desktop
+
+sudo mv plank.desktop /etc/xdg/autostart/
 
 echo 
 read -p "Autostart Plank - Done!"
