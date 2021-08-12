@@ -25,7 +25,7 @@ while true; do
     esac
 
     clear
-    echo "sudo pacman $choice --noconfirm"
+    sudo pacman $choice --noconfirm
 
     echo 
     read -p "Themes & Settings - Done!"

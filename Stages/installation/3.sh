@@ -28,7 +28,7 @@ while true; do
     esac
 
     clear
-    echo "sudo pacman -S $choice --noconfirm"
+    sudo pacman -S $choice --noconfirm
 
     echo 
     read -p "Wingpanel Indicators - Done!"
