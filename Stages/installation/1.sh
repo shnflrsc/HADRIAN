@@ -21,7 +21,7 @@ while true; do
     esac
 
     clear
-    sudo pacman $choice --noconfirm
+    sudo pacman -S $choice --noconfirm
 
     echo 
     read -p "Essentials - Done!"
