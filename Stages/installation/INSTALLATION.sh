@@ -6,6 +6,7 @@ while true; do
         dialog \
         --clear \
         --stdout \
+        --nocancel \
         --backtitle "HADRIAN: Installation" \
         --title "Installation" \
         --menu "Use UP/DOWN arrows to navigate." 10 50 3 \
@@ -25,6 +26,9 @@ while true; do
         2)
             break
             ;;
+        "")
+            continue
+            ;;
         *)
             exit
             ;;
@@ -37,6 +41,7 @@ while true; do
         dialog \
         --clear \
         --stdout \
+        --nocancel \
         --backtitle "HADRIAN: Installation" \
         --title "Select Package Group to install" \
         --menu "Use UP/DOWN arrows to navigate." 16 50 6 \
