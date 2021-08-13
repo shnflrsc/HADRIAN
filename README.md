@@ -8,9 +8,9 @@
 
 The developers of Pantheon are hard at work trying to make it [distro-agnostic](https://github.com/orgs/elementary/projects/46). That means Pantheon will be much easier to install on other Linux Distributions other than elementary OS! Unfortunately, the experience still isn't perfect, so this script attempts to fix the issues in one convenient package.
 
-# Installation
+It is recommended to use this script on a fresh installation of Arch Linux. Some packages and most of the options in the CONFIGURATION stage WILL mess up other desktop environments.
 
-***WARNING***: *It is recommended to use this script on a fresh installation of Arch Linux. Some packages (and most options in the CONFIGURATION stage) WILL mess up other desktop environments.*
+# Installation
 
 HADRIAN requires the dialog package to display the terminal user interface.
 
