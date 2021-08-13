@@ -1,4 +1,4 @@
-![](/home/shane/Pictures/screenshot.png)
+![](https://github.com/furesuka/HADRIAN/blob/7ead8527628a195faff6003d4c9d7a82051ecb91/Screenshots/installation_stage.png)
 
 ## What is HADRIAN?
 
@@ -14,11 +14,15 @@ The developers of Pantheon are hard at work trying to make it [distro-agnostic](
 
 HADRIAN requires the dialog package to display the terminal user interface.
 
-`sudo pacman -Syu && sudo pacman -S dialog`
+```
+sudo pacman -Syu && sudo pacman -S dialog
+```
 
 Clone the HADRIAN repository and run the script:
 
-`git clone -b next https://github.com/furesuka/HADRIAN.git && cd HADRIAN && sh HADRIAN.sh`
+```
+git clone -b next https://github.com/furesuka/HADRIAN.git && cd HADRIAN && sh HADRIAN.sh
+```
 
 # Links
 
