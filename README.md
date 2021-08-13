@@ -15,7 +15,7 @@ It is recommended to use this script on a fresh installation of Arch Linux. Some
 HADRIAN requires the `dialog` package to display the terminal user interface.
 
 ```
-sudo pacman -Syu && sudo pacman -S dialog
+sudo pacman -Sy && sudo pacman -S dialog
 ```
 
 Clone the HADRIAN repository and run the script:
