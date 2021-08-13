@@ -31,7 +31,7 @@ while true; do
             sh Stages/configuration/4.sh
             ;;
         5)
-            sh Stages/configuration/5.s
+            sh Stages/configuration/5.sh
             ;;
         *)
             exit
