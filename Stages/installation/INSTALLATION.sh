@@ -6,9 +6,9 @@ while true; do
         dialog \
         --clear \
         --stdout \
-        --nocancel \
         --backtitle "HADRIAN: Installation" \
         --title "Installation" \
+        --cancel-label "Back" \
         --menu "Use UP/DOWN arrows to navigate." 10 50 3 \
         1 "Sync & Update Pacman" \
         2 "Continue" \
@@ -26,9 +26,6 @@ while true; do
         2)
             break
             ;;
-        "")
-            continue
-            ;;
         *)
             exit
             ;;
@@ -41,19 +38,17 @@ while true; do
         dialog \
         --clear \
         --stdout \
-        --nocancel \
         --backtitle "HADRIAN: Installation" \
         --title "Select Package Group to install" \
-        --menu "Use UP/DOWN arrows to navigate." 16 50 6 \
+        --cancel-label "Back" \
+        --menu "Use UP/DOWN arrows to navigate." 15 50 8 \
         1 "Essentials" \
         2 "Pantheon Base" \
         3 "Wingpanel Indicators" \
         4 "Switchboard Plugs" \
         5 "Default Applications" \
         6 "Themes & Settings" \
-        7 "Miscellaneous" \
-        " " "" \
-        8 "Configuration"
+        7 "Miscellaneous"
     )
 
     case $choice in
@@ -77,12 +72,6 @@ while true; do
             ;;
         7)
             sh Stages/installation/7.sh
-            ;;
-        8)
-            break
-            ;;
-        " ")
-            continue
             ;;
         *)
             exit

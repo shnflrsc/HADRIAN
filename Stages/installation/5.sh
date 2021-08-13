@@ -8,7 +8,7 @@ while true; do
     --stdout \
     --backtitle "HADRIAN: Installation" \
     --title "Choose Packages" \
-    --checklist "Use SPACE to toggle on/off." 20 70 12 \
+    --checklist "Use SPACE to toggle on/off." 19 70 12 \
     pantheon-calculator "The Pantheon Calculator" off \
     pantheon-calendar "The Pantheon Calendar" off \
     pantheon-camera "The Pantheon Camera Application" off \

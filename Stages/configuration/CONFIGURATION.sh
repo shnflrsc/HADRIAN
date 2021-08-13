@@ -6,17 +6,15 @@ while true; do
         dialog \
         --clear \
         --stdout \
-        --nocancel \
         --backtitle "HADRIAN: Configuration" \
         --title "Select Configuration" \
-        --menu "Use UP/DOWN keys to navigate." 15 60 5 \
+        --cancel-label "Back" \
+        --menu "Use UP/DOWN keys to navigate." 13 60 6 \
         1 "Autostart Plank" \
         2 "Fix Terminal Font" \
         3 "Set Default Background" \
         4 "Hide Originally Hidden Applications" \
-        5 "Set LightDM Greeter" \
-        " " "" \
-        6 "Continue" \
+        5 "Enable LightDM Pantheon Greeter"
     )
 
     case $choice in
@@ -33,15 +31,10 @@ while true; do
             sh Stages/configuration/4.sh
             ;;
         5)
-            sh Stages/configuration/5.sh
-        6)
-            break
-            ;;
-        " ")
-            continue
+            sh Stages/configuration/5.s
             ;;
         *)
-            continue
+            exit
             ;;
     esac
 

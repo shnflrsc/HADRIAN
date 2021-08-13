@@ -8,7 +8,7 @@ while true; do
         --stdout \
         --backtitle "HADRIAN: Installation" \
         --title "Choose Packages" \
-        --checklist "Use SPACE to toggle on/off." 15 70 7 \
+        --checklist "Use SPACE to toggle on/off." 14 70 7 \
         gala "The Pantheon Window Manager" on \
         plank "Elegant, simple, clean dock" on \
         wingpanel "The Pantheon Top Panel" on \

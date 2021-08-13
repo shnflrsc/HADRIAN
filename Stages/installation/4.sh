@@ -8,7 +8,7 @@ while true; do
         --stdout \
         --backtitle "HADRIAN: Installation" \
         --title "Choose Packages" \
-        --checklist "Use SPACE to toggle on/off." 30 90 22 \
+        --checklist "Use SPACE to toggle on/off." 29 90 22 \
         switchboard-plug-a11y "Switchboard Universal Access Plug" on \
         switchboard-plug-about "Switchboard About Plug" off \
         switchboard-plug-applications "Switchboard Applications Plug" off \
