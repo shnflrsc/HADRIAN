@@ -23,8 +23,3 @@ Clone the HADRIAN repository and run the script:
 ```
 git clone -b next https://github.com/furesuka/HADRIAN.git && cd HADRIAN && sh HADRIAN.sh
 ```
-
-# Links
-
-[elementary OS](https://elementary.io/)
-
