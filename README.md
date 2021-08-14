@@ -6,7 +6,7 @@
 
 ***Why can't I just install it manually?***
 
-The developers of Pantheon are working on making it [distro-agnostic](https://github.com/orgs/elementary/projects/46). That means Pantheon will be much easier to install on other Linux Distributions other than elementary OS! Unfortunately, the experience still isn't perfect, so this script attempts to fix the issues in this convenient collection of scripts.
+The developers of Pantheon are working on making it [distro-agnostic](https://github.com/orgs/elementary/projects/46). That means Pantheon will be much easier to install on other Linux Distributions other than elementary OS! Unfortunately, the experience still isn't perfect, so this script fixes problems that come when installing Pantheon.
 
 It is recommended to use this script on a fresh installation of Arch Linux. Some packages and options in the *CONFIGURATION Stage* will mess up other desktop environments' configuration like GNOME.
 
