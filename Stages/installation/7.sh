@@ -2,34 +2,32 @@
 
 while true; do
 
-    choice=$(\
-        dialog \
-        --clear \
-        --stdout \
-        --backtitle "HADRIAN: Installation" \
-        --title "Choose Packages" \
-        --checklist "Use SPACE to toggle on/off." 17 80 10 \
-        capnet-assist "Captive Portal Assistant" off \
-        cerbere "The Pantheon Watchdog" off \
-        contractor "A desktop-wide extension service" off \
-        granite "Library that extends Gtk+" off \
-        pantheon-geoclue2-agent "Pantheon Geoclue2 Agent" off \
-        pantheon-onboarding "Onboarding app for new users" off \
-        pantheon-polkit-agent "Pantheon Polkit Agent" off \
-        pantheon-shortcut-overlay "A native, OS-wide shortcut overlay" off \
-        pantheon-sideload "Sideload Flatpaks on elementary OS" off
-    )
+    dialog \
+    --clear \
+    --stdout \
+    --backtitle "HADRIAN: Installation" \
+    --title "Confirmation" \
+    --yesno "The base-devel package group is required to install switchboard-plug-pantheon-tweaks from the AUR.\n\nContinue?" 8 55
+
+    choice=$?
 
     case $choice in
-        "")
+        0)
             break
             ;;
+        1)
+            exit
+            ;;
+        *)
+            continue
+            ;;
     esac
-
-    clear
-    sudo pacman -S $choice --noconfirm
-
-    echo 
-    read -p "Miscellaneous - Done!"
-    break
 done
+
+clear
+sudo pacman -S base-devel --noconfirm
+git clone https://aur.archlinux.org/switchboard-plug-pantheon-tweaks-git.git
+(cd switchboard-plug-pantheon-tweaks-git && makepkg -si)
+
+echo 
+read -p "Pantheon Tweaks - Done!"

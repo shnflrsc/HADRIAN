@@ -48,7 +48,8 @@ while true; do
         4 "Switchboard Plugs" \
         5 "Default Applications" \
         6 "Themes & Settings" \
-        7 "Miscellaneous"
+        7 "Pantheon Tweaks" \
+        8 "Miscellaneous"
     )
 
     case $choice in
@@ -72,6 +73,9 @@ while true; do
             ;;
         7)
             sh Stages/installation/7.sh
+            ;;
+        8)
+            sh Stages/installation/8.sh
             ;;
         *)
             exit
