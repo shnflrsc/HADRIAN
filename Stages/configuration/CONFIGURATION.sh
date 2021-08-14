@@ -11,7 +11,7 @@ while true; do
         --cancel-label "Back" \
         --menu "Use UP/DOWN keys to navigate." 13 60 6 \
         1 "Autostart Plank" \
-        2 "Fix Terminal Font" \
+        2 "Fix Default Fonts" \
         3 "Set Default Background" \
         4 "Hide Originally Hidden Applications" \
         5 "Enable LightDM Pantheon Greeter"
