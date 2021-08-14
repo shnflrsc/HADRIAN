@@ -1,12 +1,8 @@
 ![](https://github.com/furesuka/HADRIAN/blob/7ead8527628a195faff6003d4c9d7a82051ecb91/Screenshots/installation_stage.png)
 
-## What is HADRIAN?
-
 **HADRIAN** is a collection of batch scripts that conveniently installs the *Pantheon desktop environment* in Arch Linux.
 
-***Why can't I just install it manually?***
-
-The developers of Pantheon are working on making it [distro-agnostic](https://github.com/orgs/elementary/projects/46). That means Pantheon will be much easier to install on other Linux Distributions other than elementary OS! Unfortunately, the experience still isn't perfect, so this script fixes problems that come when installing Pantheon.
+Deciding which packages you do not want when installing Pantheon and troubleshooting the issues after it is a lot of work. This script provides easy installation of packages you only want, fixes for common problems, and tweaks to make it as close as the default setup found in *elementary OS*.
 
 It is recommended to use this script on a fresh installation of Arch Linux. Some packages and options in the *CONFIGURATION Stage* will mess up other desktop environments' configuration like GNOME.
 
