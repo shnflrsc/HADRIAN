@@ -1,4 +1,4 @@
-![](https://github.com/furesuka/HADRIAN/blob/7ead8527628a195faff6003d4c9d7a82051ecb91/Screenshots/installation_stage.png)
+![](https://github.com/furesuka/HADRIAN/blob/128e5e9e8103f40dea1b91c536f6b1f40c8df623/Screenshots/installation%20stage.png)
 
 **HADRIAN** is a collection of batch scripts that conveniently installs the *Pantheon desktop environment* in Arch Linux.
 
