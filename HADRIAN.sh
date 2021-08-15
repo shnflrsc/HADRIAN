@@ -1,48 +1,36 @@
 #!/bin/bash
 
-set -e
+dialog \
+--stdout \
+--backtitle "HADRIAN: About" \
+--title "About" \
+--msgbox "HADRIAN is a collection of bash scripts that conveniently installs the Pantheon desktop environment in Arch Linux.\n\nThe Pantheon package group is currently experiencing continuous changes as it is transitioning to being distro-agnostic.\n\nIf something changed and broke the script, please open an issue at GitHub!" 14 60
 
-while true
-do
-    clear
+while true; do
 
-    echo 
-    echo "  __  __     ______     _____     ______     __     ______     __   __     "
-    echo " /\ \_\ \   /\  __ \   /\  __-.  /\  == \   /\ \   /\  __ \   /\ *-.\ \    "
-    echo " \ \  __ \  \ \  __ \  \ \ \/\ \ \ \  __<   \ \ \  \ \  __ \  \ \ \-.  \   "
-    echo "  \ \  __ \  \ \  __ \  \ \ \/\ \ \ \  __<   \ \ \  \ \  __ \  \ \ \-.  \  "
-    echo "   \/_/\/_/   \/_/\/_/   \/____/   \/_/ /_/   \/_/   \/_/\/_/   \/_/ \/_/  "
+    choice=$(\
+        dialog \
+        --clear \
+        --stdout \
+        --backtitle "HADRIAN: Main Menu" \
+        --title "Select Stage" \
+        --cancel-label "Exit" \
+        --menu "Use UP/DOWN arrows to navigate." 9 40 5 \
+        1 "Installation" \
+        2 "Configuration" \
+    )
 
-    # Menu
-
-    echo -e "\n\n Note: Every option with * is mandatory to make Pantheon work!"
-
-    echo -e "\n [1] Install Pantheon"
-    echo " [2] Uninstall Pantheon"
-    echo " [3] Configure"
-    echo -e " [4] Exit\n"
-
-    read -p "Do: " -r
-    case $REPLY in
+    case $choice in
         1)
-            sh "install.sh"
+            sh Stages/installation/INSTALLATION.sh
             continue
             ;;
         2)
-            sh "uninstall.sh"
+            sh Stages/configuration/CONFIGURATION.sh
             continue
-            ;;
-        3)
-            sh "configure.sh"
-            continue
-            ;;
-        4)
-            exit 0
             ;;
         *)
-            continue
+            exit
             ;;
     esac
 done
-
-exit 0
