@@ -13,7 +13,7 @@ while true; do
         plank "Elegant, simple, clean dock" on \
         wingpanel "The Pantheon Top Panel" on \
         pantheon-applications-menu "The Pantheon Application Menu" on \
-        pantheon-notifications "Gtk Notifications Server" \
+        pantheon-notifications "Gtk Notifications Server" on \
         pantheon-terminal "The Pantheon Terminal Emulator" on \
         switchboard "The Pantheon Control Center" on
     )
