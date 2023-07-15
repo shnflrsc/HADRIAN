@@ -6,10 +6,6 @@ When installing Pantheon, deciding which packages you want or do not want and tr
 
 It is recommended to use this script on a fresh installation of Arch Linux. Some packages and options in the configuration stage will mess up other desktop environments' configuration like GNOME.
 
-# Abandoned
-
-Dual-booting Windows and Linux proved to cause many headaches for me, and development of HADRIAN cannot be continued until I have my own PC. Fortunately compatibility with Arch Linux seems to be improving, so in time you will be able to use Arch Linux with Pantheon without much issues, eventually killing the need for HADRIAN. Goodbye!
-
 # Installation
 
 HADRIAN requires the `dialog` package to display the terminal user interface.
